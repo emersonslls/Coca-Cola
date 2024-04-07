@@ -1,0 +1,236 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --Vermelho: #E51E2A;
+    --Preto: #161616;
+    --Branco: #FFFCFC;
+}
+
+.Logo {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 137.78px;
+    left: calc(50% - 205px/2);
+    height: 50px;
+    z-index: 99;
+}
+
+.Logofundo {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 33.37px;
+    left: 465.33px;
+    height: 261.93px;
+    opacity: 10%;
+    z-index: 9;
+}
+
+footer {
+    justify-content: center;
+    height: 329.38px;
+    background: var(--Branco);
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Rodape {
+    justify-content: center;
+    height: 53px;
+    background: var(--Vermelho);
+    position: absolute;
+    display: block;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 999;
+}
+
+.Feito {
+    position: absolute;
+    width: 139px;
+    height: 23px;
+    left: calc(50% - 139px/2);
+    top: 17px;
+}
+
+.Feito h1 {
+    width: 70px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.1636px;
+    line-height: 23px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: var(--Branco);
+}
+
+.Feito a {
+    position: absolute;
+    left: 72px;
+    color: var(--branco);
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.Feito a:hover {
+    color: var(--Preto);
+    font-weight: 600;
+}
+
+.Direitos {
+    position: absolute;
+    width: 253px;
+    height: 27px;
+    right: 200px;
+    top: 15px;
+}
+
+.Direitos h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: var(--Branco);
+}
+
+
+/*--RESPONSIVIDADE CELULAR--*/
+
+@media (max-width: 768px) {
+
+    footer {
+        height: 379px;
+    }
+
+    .Logo {
+        left: calc(50% - 140px/2);
+        height: 40px;
+        top: 135px;
+    }
+
+    .Logofundo {
+        top: 105px;
+        left: 0px;
+        height: 110px;
+    }
+
+    .Rodape {
+        height: 100px;
+    }
+
+    .Feito {
+        width: 110px;
+        height: 23px;
+        left: calc(50% - 110px/2);
+        top: 30px;
+    }
+
+    .Feito h1 {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    .Feito a {
+        left: 57px;
+    }
+
+    .Direitos {
+        position: absolute;
+        width: 200px;
+        height: 23px;
+        left: calc(50% - 200px/2);
+        top: 60px;
+    }
+
+    .Direitos h2 {
+        width: 200px;
+        height: 23px;
+
+        font-size: 14px;
+        line-height: 27px;
+    }
+}
+
+/*--RESPONSIVIDADE NOTEBOOK--*/
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    footer {
+        height: 306px;
+    }
+
+    .Logo {
+        left: calc(50% - 105px/2);
+        height: 40px;
+        top: 128px;
+    }
+
+    .Logofundo {
+        top: 31px;
+        left: 200px;
+
+        height: 243.34px;
+    }
+
+    .Rodape {
+        height: 50px;
+    }
+
+    .Feito {
+        width: 130px;
+        height: 23px;
+        left: calc(50% - 130px/2);
+        top: 15px;
+    }
+
+    .Feito h1 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .Feito a {
+        left: 67px;
+    }
+
+    .Direitos {
+        position: absolute;
+        width: 230px;
+        height: 23px;
+        right: 150px;
+        top: 15px;
+    }
+    
+    .Direitos h2 {
+        width: 230px;
+        height: 23px;
+
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

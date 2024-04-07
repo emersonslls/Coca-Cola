@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --Vermelho: #E51E2A;
+  --Preto: #161616;
+  --Branco: #FFFCFC;
+}
+
+.Logo {
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 25px;
+  left: 200px;
+  height: 50px;
+}
+
+Header {
+  justify-content: center;
+  background: var(--Vermelho);
+  height: 100px;
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.Lenguage  {
+  display: flex;
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  width: 75px;
+  height: 28px;
+  top: 35px;
+  right: 200px;
+
+  position: absolute;
+}
+
+.Lenguage img {
+  top: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+/*--RESPONSIVIDADE CELULAR--*/
+
+@media (max-width: 768px) {
+  header {
+    height: 62px;
+  }
+
+  .Logo {
+    left: 50px;
+    height: 30px;
+    top: 18px;
+  }
+
+  .Lenguage  {
+    gap: 10px;
+  
+    width: 75px;
+    height: 28px;
+    top: 20px;
+    right: 50px;
+
+  }
+  
+  .Lenguage img {
+    top: 0px;
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/*--RESPONSIVIDADE NOTEBOOK--*/
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .Logo {
+    left: 100px;
+    height: 40px;
+    top: 30px;
+  }
+
+  .Lenguage {
+    width: 70px;
+    height: 32px;
+    top: 34px;
+    right: 100px;
+
+    gap: 10px;
+  }
+
+  .Lenguage img {
+    top: 0px;
+    height: 32px;
+    width: 32px;
+  }
+}

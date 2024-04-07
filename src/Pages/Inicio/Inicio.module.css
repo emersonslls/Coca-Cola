@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+:root {
+    --Vermelho: #E51E2A;
+    --Preto: #161616;
+    --Branco: #FFFCFC;
+}
+
+.Home {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+
+    position: relative;
+    background: var(--Vermelho);
+}
+
+.Home img {
+    align-items: center;
+    justify-content: center;
+    left: 850px;
+    position: absolute;
+    width: auto;
+    height: 60px;
+}
+
+/*--RESPONSIVIDADE CELULAR--*/
+
+@media (max-width: 768px) {
+
+    .Home img {
+        top: 320px;
+        left: 130px;
+        height: 50px;
+      }
+}
+
+/*--RESPONSIVIDADE NOTEBOOK--*/
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    .Home img {
+        top: 310px;
+        left: 585px;
+        height: 50px;
+    }
+ 
+}

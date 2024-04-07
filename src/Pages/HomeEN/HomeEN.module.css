@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+:root {
+    --Vermelho: #E51E2A;
+    --Preto: #161616;
+    --Branco: #FFFCFC;
+}
+
+.Red {
+    color: var(--Vermelho);
+}
+
+.Black {
+    color: var(--Preto);
+}
+
+.White {
+    color: var(--Branco);
+}
+
+.Inicio {
+    width: 100%;
+    height: 894px;
+
+    position: relative;
+    background: var(--Preto);
+}
+
+.SobreCoca {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    width: 674px;
+    height: 491px;
+    top: 234px;
+    left: 200px;
+
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.SobreCoca h1 {
+    top: 0px;
+    left: 0px;
+
+    width: 285px;
+    height: 100px;
+
+    position: absolute;
+
+    color: var(--Branco);
+
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+
+.SobreCoca h4 {
+    top: 100px;
+    left: 0px;
+
+    width: 674px;
+    height: 210px;
+
+    position: absolute;
+
+    color: var(--Branco);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: auto;
+}
+
+.SobreCoca h5 {
+    top: 325px;
+    left: 0px;
+
+    width: 674px;
+    height: 150px;
+
+    position: absolute;
+
+    color: var(--Branco);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: auto;
+}
+
+.Refris {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+
+    height: 512px;
+    width: 409.31px;
+
+    top: 190px;
+    right: 200px;
+}
+
+.Detalhe1 {
+    width: 19px;
+    height: 129.2px;
+
+    position: absolute;
+    justify-content: center;
+    display: flex;
+
+    top: 382px;
+    right: 150px;
+}
+
+/*--FUNDADOR--*/
+
+.Criador {
+    width: 100%;
+    height: 868px;
+
+    position: relative;
+    background: var(--Branco);
+}
+
+.SobreCriador {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    width: 627px;
+    height: 345px;
+
+    top: 282px;
+    left: 200px;
+
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.SobreCriador h1 {
+    top: 0px;
+    left: 0px;
+
+    width: 470px;
+    height: 50px;
+
+    position: absolute;
+
+    color: var(--Preto);
+
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+
+.SobreCriador h4 {
+    top: 52px;
+    left: 0px;
+
+    width: 627px;
+    height: 294px;
+
+    position: absolute;
+
+    color: var(--Preto);
+    font-family: "Poppins";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: auto;
+}
+
+.Fundador {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+
+    height: 415.72px;
+    width: 515px;
+
+    top: 226px;
+    right: 200px;
+}
+
+.Detalhe2 {
+    width: 19px;
+    height: 129.2px;
+
+    position: absolute;
+    justify-content: center;
+    display: flex;
+
+    top: 369px;
+    right: 150px;
+}
+
+/*--AFILIADOS--*/
+
+.Afiliados {
+    width: 100%;
+    height: 868px;
+
+    position: relative;
+    background: var(--Vermelho);
+}
+
+.MarcasComp {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    width: 650px;
+    height: 311px;
+
+    top: 279px;
+    right: 200px;
+
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.MarcasComp h1 {
+    top: 0px;
+    right: 0px;
+
+    width: 650px;
+    height: 100px;
+
+    position: absolute;
+
+    color: var(--Branco);
+
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+
+    text-align: right;
+}
+
+.MarcasComp h4 {
+    top: 101px;
+    right: 0px;
+
+    width: 626px;
+    height: 210px;
+
+    position: absolute;
+
+    color: var(--Branco);
+    font-family: "Poppins";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: auto;
+
+    text-align: right;
+}
+
+.OutrasMarcas {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+
+    height: 512px;
+    width: 360.36px;
+
+    top: 178px;
+    left: 200px;
+}
+
+.Detalhe3 {
+    width: 19px;
+    height: 129.2px;
+
+    position: absolute;
+    justify-content: center;
+    display: flex;
+
+    top: 369px;
+    left: 150px;
+}
+
+/*--RESPONSIVIDADE CELULAR--*/
+
+@media (max-width: 768px) {
+    .Inicio {
+        width: 100%;
+        height: 1820px;
+
+        position: relative;
+    }
+
+    .SobreCoca {
+        width: 316px;
+        height: 895px;
+        top: 203px;
+        left: 50px;
+    }
+
+    .SobreCoca h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 285px;
+        height: 100px;
+    }
+
+    .SobreCoca h4 {
+        top: 100px;
+        left: 0px;
+
+        width: 316px;
+        height: 450px;
+    }
+
+    .SobreCoca h5 {
+        top: 585px;
+        left: 0px;
+
+        width: 316px;
+        height: 305px;
+    }
+
+    .Refris {
+        top: 1280px;
+        left: 40px;
+        width: 348px;
+        height: 441px;
+    }
+
+    .Refris img {
+        width: 352.55;
+        height: 441px;
+    }
+
+    .Detalhe1 {
+        top: 1120px;
+        left: 200px;
+
+        transform: rotate(90deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .Criador {
+        width: 100%;
+        height: 1490px;
+
+        position: relative;
+    }
+
+    .SobreCriador {
+        width: 316px;
+        height: 745px;
+        top: 120px;
+        left: 50px;
+    }
+
+    .SobreCriador h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 285px;
+        height: 100px;
+    }
+
+    .SobreCriador h4 {
+        top: 100px;
+        left: 0px;
+
+        width: 316px;
+        height: 640px;
+    }
+
+    .Fundador {
+        height: 292px;
+        width: 361.74px;
+
+        top: 1000px;
+        left: 35px;
+    }
+
+    .Fundador img {
+        height: 292px;
+        width: auto;
+    }
+
+    .Detalhe2 {
+        top: 1300px;
+        left: 200px;
+
+        transform: rotate(90deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .Afiliados {
+        width: 100%;
+        height: 1635px;
+    }
+
+    .MarcasComp {
+        width: 316px;
+        height: 605px;
+        top: 910px;
+        left: 50px;
+    }
+
+    .MarcasComp h1 {
+        top: 0px;
+        right: 0px;
+
+        width: 290px;
+        height: 210px;
+    }
+
+    .MarcasComp h4 {
+        top: 212px;
+        right: 0px;
+
+        width: 316px;
+        height: 390px;
+    }
+
+    .OutrasMarcas {
+        height: 500.9px;
+        width: 352.55px;
+
+        top: 183px;
+        left: 40px;
+    }
+
+    .OutrasMarcas img {
+        height: 500.9px;
+        width: 352.55px;
+    }
+
+    .Detalhe3 {
+        top: 740px;
+        left: 200px;
+
+        transform: rotate(90deg);
+    }
+}
+
+/*--RESPONSIVIDADE NOTEBOOK--*/
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Inicio {
+        width: 100%;
+        height: 894px;
+
+        position: relative;
+    }
+
+    .SobreCoca {
+        width: 645px;
+        height: 491px;
+        top: 234px;
+        left: 100px;
+    }
+
+    .SobreCoca h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 285px;
+        height: 100px;
+    }
+
+    .SobreCoca h4 {
+        top: 100px;
+        left: 0px;
+
+        width: 645px;
+        height: 220px;
+    }
+
+    .SobreCoca h5 {
+        top: 340px;
+        left: 0px;
+
+        width: 645px;
+        height: 150px;
+    }
+
+    .Refris {
+        top: 190px;
+        right: 100px;
+    }
+
+    .Detalhe1 {
+        top: 382px;
+        right: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Criador {
+        width: 100%;
+        height: 800px;
+    }
+
+    .SobreCriador {
+        width: 575px;
+        height: 380px;
+
+        top: 240px;
+        left: 100px;
+    }
+
+    .SobreCriador h1 {
+        top: 0px;
+        left: 0px;
+
+        width: 455px;
+        height: 50px;
+    }
+
+    .SobreCriador h4 {
+        top: 52px;
+        left: 0px;
+
+        width: 575px;
+        height: 310px;
+    }
+
+    .Fundador {
+        height: 395px;
+        width: 490px;
+
+        top: 235px;
+        right: 90px;
+    }
+
+    .Fundador img {
+        height: 395px;
+        width: auto;
+    }
+
+    .Detalhe2 {
+        top: 369px;
+        right: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    .Afiliados {
+        width: 100%;
+        height: 800px;
+    }
+
+    .MarcasComp {
+        width: 640px;
+        height: 320px;
+
+        top: 240px;
+        right: 100px;
+    }
+
+    .MarcasComp h1 {
+        top: 0px;
+        right: 0px;
+
+        width: 640px;
+        height: 100px;
+    }
+
+    .MarcasComp h4 {
+        top: 101px;
+        right: 0px;
+
+        width: 625px;
+        height: 210px;
+    }
+
+    .OutrasMarcas {
+        height: 500px;
+        width: auto;
+
+        top: 173px;
+        left: 100px;
+    }
+
+    .OutrasMarcas img {
+        height: 500px;
+        width: auto;
+    }
+
+    .Detalhe3 {
+        top: 369px;
+        left: 50px;
+    }
+}
